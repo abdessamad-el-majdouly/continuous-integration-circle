@@ -8,6 +8,7 @@ jobs:
     executor: ci-executor
     steps:
       - checkout
+<<<<<<< HEAD
 
       - run:
           name: build dependencies
@@ -39,3 +40,5 @@ workflows:
       - testlinks:
           requires:
             - build
+=======
+>>>>>>> master
